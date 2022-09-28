@@ -1,0 +1,74 @@
+
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+#hero {
+    display: block;
+    background-image: url("images/mountains1.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 100px 150px;
+    background-attachment: fixed;
+}
+
+.loc {
+    color: inherit;
+    text-decoration: none;
+}
+
+.loc:hover{
+    font-weight: bold;
+}
+
+#des {
+    margin: 50px 100px 0 100px ;
+}
+
+#head1{
+    margin-bottom: 20px;
+}
+
+#sub-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    background: linear-gradient(skyblue,rgba(154, 119, 21, 0.408));
+    
+}
+
+#sub-dis {
+    display: inherit;
+    margin: 0 100px 0 100px ;
+}
+
+.simg {
+    width: 200px;
+    height: 200px;
+}
+
+#guide  {
+    display: flex;
+    justify-content: space-around;
+    background: moccasin;
+    border: 6px solid rgba(174, 174, 250, 0.414);
+    border-radius: 20px;
+    margin: 50px 200px;
+    padding: 50px 100px;
+}
+
+#gdes {
+    margin: 50px 50px;
+    padding: 10px 50px;
+}
+
+#wikilink:hover {
+    text-decoration: underline;
+}
+
