@@ -44,11 +44,14 @@ body {
 }
 
 #sub-dis {
-    display: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0 100px 0 100px ;
 }
 
 .simg {
+    display: block;
     width: 200px;
     height: 200px;
 }
